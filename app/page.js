@@ -424,7 +424,7 @@ export default function HomePage() {
             <div className='flex items-center mt-[2.36vw] max-md:flex-col'>
               <div className='w-[54.03vw] h-[36.94vw]  bg-[#293A54] ml-[3.19vw] mr-[1.39vw]  rounded-[2.08vw]  max-md:ml-[0] max-md:mr-[0]  max-md:w-[100vw] max-md:h-[81.42vw]  max-md:rounded-[3.82vw]'>
                 <div className='pt-[1.74vw]'>
-                <iframe className='w-[50.56vw] max-md:w-[94.91vw] h-[32.85vw] max-md:h-[76.42vw]  rounded-[1.39vw] ml-[2.74vw] ' src="https://yandex.ru/map-widget/v1/?um=constructor%3A04738fbb009a991219a364157be3145250bd01701819ff9e9130bc3e02c1b516&amp;source=constructor" width="500" height="400" frameBorder="0"></iframe>
+                <iframe className='w-[50.56vw] max-md:w-[94.91vw] h-[32.85vw] max-md:h-[76.42vw]  rounded-[1.39vw] ml-[1.74vw] max-md:ml-[2.5vw] max-md:mt-[1.3vw]' src="https://yandex.ru/map-widget/v1/?um=constructor%3A04738fbb009a991219a364157be3145250bd01701819ff9e9130bc3e02c1b516&amp;source=constructor" width="500" height="400" frameBorder="0"></iframe>
                 </div>
               </div>
               <img className='w-[38.19vw] max-md:w-[100vw] h-[36.32vw] max-md:h-[86.77vw] max-md:rounded-[3.82vw] max-md:mt-[2.54vw]' src='/img/image_9.png'></img>
