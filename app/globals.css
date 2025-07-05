@@ -1,0 +1,244 @@
+@import "tailwindcss";
+/* @import url('/fonts/Bebas Neue/bebas_neue_family.css'); */
+@font-face {
+	font-family: 'Bebas Neue Bold';
+	src: url('../public/fonts/BebasNeue/fonts/bebas_neue_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../public/fonts/BebasNeue/fonts/bebas_neue_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../public/fonts/BebasNeue/fonts//bebas_neue_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../public/fonts/BebasNeue/fonts//bebas_neue_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../public/fonts/BebasNeue/fonts//bebas_neue_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../public/fonts/BebasNeue/fonts//bebas_neue_bold.svg#bebas_neue_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Bebas Neue Book';
+	src: url('../public/fonts/BebasNeue/fonts/bebas_neue_book.eot'); /* IE 9 Compatibility Mode */
+	src: url('../public/fonts/BebasNeue/fonts/bebas_neue_book.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../public/fonts/BebasNeue/fonts/bebas_neue_book.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../public/fonts/BebasNeue/fonts/bebas_neue_book.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../public/fonts/BebasNeue/fonts/bebas_neue_book.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../public/fonts/BebasNeue/fonts/bebas_neue_book.svg#bebas_neue_book') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Bebas Neue Light';
+	src: url('../public/fonts/BebasNeue/fonts/bebas_neue_light.eot'); /* IE 9 Compatibility Mode */
+	src: url('../public/fonts/BebasNeue/fonts/bebas_neue_light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../public/fonts/BebasNeue/fonts/bebas_neue_light.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../public/fonts/BebasNeue/fonts/bebas_neue_light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../public/fonts/BebasNeue/fonts/bebas_neue_light.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../public/fonts/BebasNeue/fonts/bebas_neue_light.svg#bebas_neue_light') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Bebas Neue Regular';
+	src: url('../public/fonts/BebasNeue/fonts/bebas_neue_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../public/fonts/BebasNeue/fonts/bebas_neue_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../public/fonts/BebasNeue/fonts/bebas_neue_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../public/fonts/BebasNeue/fonts/bebas_neue_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../public/fonts/BebasNeue/fonts/bebas_neue_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../public/fonts/BebasNeue/fonts/bebas_neue_regular.svg#bebas_neue_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Bebas Neue Thin';
+	src: url('../public/fonts/BebasNeue/fonts/bebas_neue_thin.eot'); /* IE 9 Compatibility Mode */
+	src: url('../public/fonts/BebasNeue/fonts/bebas_neue_thin.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../public/fonts/BebasNeue/fonts/bebas_neue_thin.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../public/fonts/BebasNeue/fonts/bebas_neue_thin.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../public/fonts/BebasNeue/fonts/bebas_neue_thin.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../public/fonts/BebasNeue/fonts/bebas_neue_thin.svg#bebas_neue_thin') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Jost-Regular';
+	src: url('../public/fonts/Jost/fonts/jost-regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../public/fonts/Jost/fonts/jost-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../public/fonts/Jost/fonts/jost-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../public/fonts/Jost/fonts/jost-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../public/fonts/Jost/fonts/jost-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../public/fonts/Jost/fonts/jost-regular.svg#jost-regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'OPen Sans';
+	src: url('../public/fonts/OpenSans/ofont.ru_Open\ Sans.ttf'); /* IE 9 Compatibility Mode */
+
+}
+
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #101829;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_title{
+  color: #FFF;
+  font-size: 8.06vw;
+  font-weight: 700;
+  font-family: 'Bebas Neue Bold';
+}
+
+@media (max-width: 767px) {
+	.main_title {
+	  font-size: 10.43vw;
+	}
+}
+
+.title{
+	color: #FFF;
+	font-size: 6.94vw;
+	font-weight: 700;
+	font-family: 'Bebas Neue Bold';	
+}
+
+@media (max-width: 767px) {
+	.title {
+	  font-size: 10.43vw;
+	}
+}
+
+.BNB-font{
+	font-family: 'Bebas Neue Bold';
+}
+
+.OS-front{
+	font-family: 'OPen Sans';
+}
+
+.Jost-font{
+	font-family: 'Jost-Regular';
+}
+
+.logo-slider-wrapper {
+	overflow: hidden;
+	width: 100%;
+	height: 6.5vw;
+	background-color: #293A54;
+	padding: 1.57vw 0;
+	position: relative;
+  }
+
+  @media (max-width: 767px) {
+	.logo-slider-wrapper {
+		padding: 6.58vw 0;
+		height: 20.56vw;
+	}
+
+	
+}
+
+@media (max-width: 393px) {
+	.logo-slider-wrapper {
+		padding: 6.58vw 0;
+		height: 24.56vw;
+	}
+
+	
+}
+  
+  .logo-slider {
+	display: flex;
+	width: fit-content;
+	animation: scroll 120s linear infinite;
+  }
+  
+  .logo-slide {
+	flex: 0 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 3.06vw;
+  }
+  
+  .logo-slide img {
+	height: 3.47vw;
+	width: auto;
+	object-fit: contain;
+	filter: brightness(0) invert(1);
+	transition: transform 0.3s ease;
+
+
+  }
+  @media (max-width: 767px) {
+	.logo-slide img {
+		height: 6vw;
+	}
+
+	
+}
+  
+  
+
+  
+  @keyframes scroll {
+	0% {
+	  transform: translateX(-50%);
+	}
+	100% {
+	  transform: translateX(50%);
+	}
+  }
+
+  .planetBG{
+	background-image: url(../public/img/planetBG.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  .planetBGM{
+	background-image: url(../public/img/planetBGM.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+  .react-phone-input-2 .form-control:focus {
+	box-shadow: none;
+	border: none;
+	outline: none;
+  }
+
+  @media (max-width: 437px) {
+  .custom-card {
+    padding-top: 8vw !important; /* Нужное значение для мобилок */
+  }
+}
+
+.react-tel-input {
+	width: 12vw;
+}
+
+
+
+@media (max-width: 767px) {
+  .react-tel-input {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+	.react-tel-input 
+	 {
+	  position: relative;
+	}}
