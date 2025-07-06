@@ -120,9 +120,9 @@ export default function HomePage() {
           <div className='ml-[3.65vw] max-md:mt-[2.54vw] max-md:mb-[7.63vw] hidden max-md:block'>
             <span className='text-[1.67vw] tracking-wide text-[#BBBBC7] max-md:text-[3.82vw]'>Широкий ассортимент, логистика по всей <br></br> стране и условия, выгодные для опта.</span> 
           </div>
-          <div className='flex justify-center px-[1.81vw] max-md:px-[3.56vw] max-sm:px-[5.02vw] py-[1.39vw] max-sm:py-[5.02vw] max-md:py-[3.82vw] bg-[#B47A4C] items-center rounded-[4.17vw] max-md:rounded-[8.91vw] cursor-pointer'>
-            <span onClick={scrollToAbout} className='0.83vw text-white text-[2.08vw] mr-[0.83vw] max-md:mr-[1.53vw] max-md:text-[7.63vw] '>Подробнее</span>
-            <img className='w-[3.33vw] max-sm:w-[9.24vw] max-md:w-[6.87vw] h-[3.33vw] max-sm:h-[9.24vw] max-md:h-[6.87vw]' alt='arrow' src='/img/icons/arrow.svg'></img>
+          <div className='flex justify-center px-[1.81vw] max-md:px-[3.56vw] max-sm:px-[5.02vw] py-[1.39vw] max-sm:pч-[3.82vw] max-md:py-[3.82vw] bg-[#B47A4C] items-center rounded-[4.17vw] max-md:rounded-[8.65vw] cursor-pointer'>
+            <span onClick={scrollToAbout} className='0.83vw text-white text-[2.08vw] mr-[0.83vw] max-md:mr-[1.53vw] max-md:text-[4.33vw]'>Подробнее</span>
+            <img className='w-[3.33vw] max-sm:w-[9.24vw] h-[3.33vw] max-sm:h-[9.24vw] max-md:h-[6.92vw] max-md:w-[6.92vw]' alt='arrow' src='/img/icons/arrow.svg'></img>
           </div>
         </div>
         <img className='w-[93.8vw] max-md:w-[89.82vw] h-[38.47vw] max-md:h-[47.33vw] mb-[6.94vw] ml-[2.4vw] max-md:ml-[5.09vw] max-md:mt-[8.14vw]' alt='arrow' src='/img/main_block.png'></img>
@@ -202,14 +202,14 @@ export default function HomePage() {
                   <span className='OS-front text-[#BBBBC7] text-[1.21vw] max-md:text-[3.82vw]'>20 транспортных единиц и собственная <br className='hidden max-md:block'></br> команда. <br className='max-md:hidden'></br> Логистика — это то, что мы  <br className='hidden max-md:block'></br> контролируем сами.</span>
                 </div>
               </div>
-              <div className='flex flex-col items-end max-md:items-start relative top-[3vw]'>
+              <div className='flex flex-col items-end max-md:items-start relative top-[3vw] max-md:right-[1.75vw]'>
                 <div className='flex mb-[0.9vw] max-md:mb-[3.05vw]'>
-                  <div className='flex items-center text-[1.22vw] max-md:text-[2.8vw] text-[#BBBBC7] py-[0.75vw] max-md:py-[2.29vw] px-[1.21vw] max-md:px-[3.82vw] border-[0.05vw] border-white rounded-[1.91vw] max-md:rounded-[5.6vw] mr-[0.5vw] max-md:mr-[1.53vw]'><img className='mr-[0.35vw] max-md:mr-[1.53vw] max-md:mr-[1.53vw] w-[1.26vw] max-md:w-[3.82vw] h-[1.26vw] max-md:h-[3.82vw]' src='/img/icons/iocn_car.svg'></img> Отгрузка и доставка</div>
-                  <div className='flex items-center text-[1.22vw] max-md:text-[2.8vw] text-[#BBBBC7] py-[0.75vw] max-md:py-[2.29vw] px-[1.21vw] max-md:px-[3.82vw] border-[0.05vw] border-white rounded-[1.91vw] max-md:rounded-[5.6vw]'><img className='mr-[0.35vw] max-md:mr-[1.53vw] w-[1.26vw] max-md:w-[3.82vw] h-[1.26vw] max-md:h-[3.82vw]' src='/img/icons/icon_calc.svg'></img> Комплектация и учёт</div>
+                  <div className='flex items-center text-[1.22vw] max-md:text-[2.55vw] text-[#BBBBC7] py-[0.75vw] max-md:py-[2.29vw] px-[1.21vw] max-md:px-[3.82vw] border-[#BBBBC7] border-[0.05vw] border-white rounded-[1.91vw] max-md:rounded-[5.6vw] mr-[0.5vw] max-md:mr-[1.53vw]'><img className='mr-[0.35vw] max-md:mr-[1.53vw] max-md:mr-[1.53vw] w-[1.26vw] max-md:w-[3.82vw] h-[1.26vw] max-md:h-[3.82vw]' src='/img/icons/iocn_car.svg'></img> Отгрузка и доставка</div>
+                  <div className='flex items-center text-[1.22vw] max-md:text-[2.55vw] text-[#BBBBC7] py-[0.75vw] max-md:py-[2.29vw] px-[1.21vw] max-md:px-[3.82vw] border-[#BBBBC7] border-[0.05vw] border-white rounded-[1.91vw] max-md:rounded-[5.6vw]'><img className='mr-[0.35vw] max-md:mr-[1.53vw] w-[1.26vw] max-md:w-[3.82vw] h-[1.26vw] max-md:h-[3.82vw]' src='/img/icons/icon_calc.svg'></img> Комплектация и учёт</div>
                 </div>
                 <div className='flex max-md:mb-[7.63vw]'>
-                  <div className='flex items-center text-[1.22vw] max-md:text-[2.8vw] text-[#BBBBC7] py-[0.75vw] max-md:py-[2.29vw] px-[1.21vw] max-md:px-[3.82vw] border-[0.05vw] border-white rounded-[1.91vw] max-md:rounded-[5.6vw] mr-[0.5vw] max-md:mr-[1.53vw]'><img className='mr-[0.35vw] max-md:mr-[1.53vw] w-[1.26vw] max-md:w-[3.82vw] h-[1.26vw] max-md:h-[3.82vw]' src='/img/icons/icon_box.svg'></img> Приём и хранение товара</div>
-                  <div className='flex items-center text-[1.22vw] max-md:text-[2.8vw] text-[#BBBBC7] py-[0.75vw] max-md:py-[2.29vw] px-[1.21vw] max-md:px-[3.82vw] border-[0.05vw] border-white rounded-[1.91vw] max-md:rounded-[5.6vw]'><img className='mr-[0.35vw] max-md:mr-[1.53vw] w-[1.26vw] max-md:w-[3.82vw] h-[1.26vw] max-md:h-[3.82vw]' src='/img/icons/icon_screw.svg'></img> Контроль на всех этапах</div>
+                  <div className='flex items-center text-[1.22vw] max-md:text-[2.55vw] text-[#BBBBC7] py-[0.75vw] max-md:py-[2.29vw] px-[1.21vw] max-md:px-[3.82vw] border-[#BBBBC7] border-[0.05vw] border-white rounded-[1.91vw] max-md:rounded-[5.6vw] mr-[0.5vw] max-md:mr-[1.53vw]'><img className='mr-[0.35vw] max-md:mr-[1.53vw] w-[1.26vw] max-md:w-[3.82vw] h-[1.26vw] max-md:h-[3.82vw]' src='/img/icons/icon_box.svg'></img> Приём и хранение товара</div>
+                  <div className='flex items-center text-[1.22vw] max-md:text-[2.55vw] text-[#BBBBC7] py-[0.75vw] max-md:py-[2.29vw] px-[1.21vw] max-md:px-[3.82vw] border-[#BBBBC7] border-[0.05vw] border-white rounded-[1.91vw] max-md:rounded-[5.6vw]'><img className='mr-[0.35vw] max-md:mr-[1.53vw] w-[1.26vw] max-md:w-[3.82vw] h-[1.26vw] max-md:h-[3.82vw]' src='/img/icons/icon_screw.svg'></img> Контроль на всех этапах</div>
                 </div>
               </div>
             </div>
@@ -223,7 +223,7 @@ export default function HomePage() {
             <div id='product' className='mb-[3.47vw] max-md:ml-[5.09vw]'>
               <span className='title text-[6.94vw] ml-[3.19vw] max-md:ml-[0] max-md:text-[10.43vw] max-md:leading-[10vw]'>Нам доверяют <br className='hidden max-md:block'></br> мировые бренды</span>
               <div className='ml-[3.19vw] max-md:ml-[0] max-md:mt-[3.82vw] max-md:mb-[8.14vw]'>
-                <span className='OS-front text-[#BBBBC7] text-[1.67vw] max-md:text-[3.82vw]'>Сервисторг сотрудничает с мировыми производителями напитков, такими как: <br></br> Pepsico Holdings, Redbull, Borjomi, Lotte и другими.</span>
+                <span className='OS-front text-[#BBBBC7] text-[1.67vw] max-md:text-[3.82vw]'>Сервисторг сотрудничает с мировыми производителями напитков, такими как: <br></br> Pepsico Holdings, Redbull, Borjomi, Lotte <br className='hidden max-md:block'></br> и другими.</span>
               </div>
             </div>
 
@@ -272,9 +272,9 @@ export default function HomePage() {
             </div>
             
 
-            <div className=' mt-[13.89vw] max-md:mt-[17.81vw]'>
-              <span className='title text-[6.94vw] max-md:text-[10.43vw] ml-[3.19vw] max-md:mb-[2.54vw] '>История роста</span>
-              <div className='ml-[3.19vw] mb-[2.6vw] max-md:mb-[8.14vw]'>
+            <div className=' mt-[13.89vw] max-md:mt-[17.81vw] '>
+              <span className='title text-[6.94vw] max-md:text-[10.43vw] ml-[3.19vw] max-md:ml-[5.54vw] '>История роста</span>
+              <div className='ml-[3.19vw] mb-[2.6vw] max-md:mb-[8.14vw] max-md:ml-[5.54vw]'>
                 <span className='text-[1.67vw] max-md:text-[3.82vw] text-[#BBBBC7] OS-front '>
                   С 2013 года мы работаем на рынке безалкогольных напитков. С самого начала <br></br> 
                   зарекомендовали себя как надёжный и проверенный партнёр в Чеченской <br></br> 
@@ -296,8 +296,8 @@ export default function HomePage() {
             <div className='bg-[#293A54] py-[2.43vw] max-md:py-[7.63vw]'>
               <div className='flex justify-between items-center max-md:items-start max-md:flex-col'>
                 <div>
-                  <span className='title text-[6.94vw] ml-[3.19vw]'>НАШИ ПЛАНЫ</span>
-                  <div className='ml-[3.19vw] max-md:mb-[5.09vw]'>
+                  <span className='title text-[6.94vw] ml-[3.19vw] max-md:ml-[5.54vw]'>НАШИ ПЛАНЫ</span>
+                  <div className='ml-[3.19vw] max-md:mb-[5.09vw] max-md:ml-[5.54vw]'>
                     <span className='text-[#DEDEE8] max-md:text-[#BBBBC7] text-[1.67vw] max-md:text-[3.82vw]'>Мыставим перед собой цель к 2030 году стать <br></br> компанией №1 в России по продаже <br></br> безалкогольных напитков и продуктов <br className='hidden max-md:block'></br> питания.</span>
                   </div>
                 </div>
@@ -308,8 +308,8 @@ export default function HomePage() {
             </div>
 
             <div className='mt-[13.89vw] max-md:mt-[17.81vw] max-md:mb-[5.09vw]'>
-              <span className='title text-[6.94vw] ml-[3.19vw] max-md:text-[10.43vw]'>оптовые СКЛАДЫ</span>
-              <div className='flex ml-[3.19vw] max-md:flex-col'>
+              <span className='title text-[6.94vw] ml-[3.19vw] max-md:text-[10.43vw] max-md:ml-[5.34vw]'>оптовые СКЛАДЫ</span>
+              <div className='flex ml-[3.19vw] max-md:flex-col max-md:ml-[5.54vw]'>
                 <div className='bg-[#293A54] w-[30.28vw] max-md:w-[89.82vw] max-md:h-[45.8vw] h-[19.1vw]  rounded-[2.08vw] max-md:rounded-[5.09vw] mr-[1.39vw] max-md:mb-[3.31vw]'>
                   <svg className='ml-[11.46vw] max-md:ml-[36.13vw] mt-[2.08vw] max-md:mt-[5.09vw] w-[7.36vw] max-md:w-[17.81vw] max-md:h-[21.88vw]' xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 106 133" fill="none">
                     <path d="M57.9829 55.0739H51.641L50.9615 47.9897L48.6966 44.3333L41.6752 37.0206L34.8803 29.2509L29.4444 18.9674L28.5385 9.36942L26.047 0L20.1581 7.08419L21.5171 7.76976L16.9872 13.0258L20.1581 13.2543L20.8376 16.4536L16.7607 17.5962L17.2137 19.6529L21.5171 21.9381L20.1581 28.3368L27.1795 47.3041L30.8034 46.39L35.1068 43.1907L37.3718 45.0189L43.0342 51.8746L45.9786 50.732L47.1111 54.6168V58.2732L40.7692 61.4725L35.1068 61.9296L31.7094 64.6718L25.594 66.5V71.0704L28.0855 73.3557L23.3291 82.7251L28.5385 83.1821L29.4444 86.61L26.7265 90.9519L25.594 95.2938L19.7051 95.7509L19.0256 105.12L13.1368 107.634H9.28632L8.38034 109.919L13.8162 113.119L11.5513 114.49L12.6838 115.861L5.88889 119.289L5.2094 123.631L2.49145 124.316L3.39744 127.287L0 130.486L9.28632 133L11.5513 129.344L15.1752 126.144L17.2137 123.631H19.7051L21.2906 130.029L31.7094 130.486L30.1239 128.201V125.23L35.3333 127.287L36.6923 119.289L32.8419 116.318L35.3333 114.49L40.3162 116.318L42.8077 114.718L49.6026 118.146L61.6068 117.918L59.5684 114.718L60.9273 110.605L57.3034 106.72L58.6624 103.978L62.0598 106.263L68.8547 107.177L71.5726 104.435L70.6667 98.9502L66.1367 100.778L63.4188 96.4364V92.323L66.8162 91.866L67.4957 90.0378L70.6667 87.9811L72.7051 85.0103L75.8761 83.4107L79.7265 83.8677H86.7479L93.7692 88.6667L96.7137 80.2113V76.3265L103.056 73.5842L104.188 65.8144L101.923 61.244V58.7302H104.641L99.8846 46.6186L98.9786 41.3625L103.735 36.5636L101.244 32.4502L106 27.8797L104.188 24.2234L99.8846 27.1942L97.1667 26.5086L93.9957 29.7079L93.3162 33.5928L69.3077 28.7938L67.0427 41.8196L68.1752 47.3041V52.3316H58.4359L57.9829 55.0739Z" fill="#B47A4C"/>
@@ -347,7 +347,7 @@ export default function HomePage() {
                 </div>
                 {/*  */}
               </div>
-              <div className='flex ml-[3.19vw] mt-[1.39vw] max-md:flex-col'>
+              <div className='flex ml-[3.19vw] mt-[1.39vw] max-md:flex-col max-md:ml-[5.54vw]'>
                 <div className='bg-[#293A54] w-[30.28vw] h-[19.1vw] rounded-[2.08vw]  max-md:rounded-[5.09vw] max-md:rounded-[5.09vw] mr-[1.39vw] max-md:w-[89.82vw] max-md:h-[45.8vw] max-md:mb-[3.31vw]'>
                 <svg className='ml-[11.11vw] mt-[0.6vw] max-md:ml-[35.37vw]  max-md:mt-[1.98vw] w-[7.13vw] max-md:w-[19.34vw] max-md:h-[25.45vw]' xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 117 154" fill="none">
                   <path d="M14.1488 56.7943L13.0605 62.2553L1.63256 63.0745V68.8085L3.26512 73.1773L0 83.2801L11.4279 89.2872L11.9721 84.3723H16.5977L15.5093 86.2837L17.686 87.3759L20.1349 85.4645L22.8558 86.8298L20.407 87.3759L20.9512 92.0177L26.9372 95.2943L30.7465 99.6631L12.5163 124.238L18.2302 126.422L18.7744 130.518L24.4884 132.975L22.8558 134.613L29.6581 146.901L28.2977 154L46.5279 140.894L47.3442 139.528L54.6907 136.798L59.3163 127.514L58.7721 122.872L56.5953 119.596L57.4116 117.138L60.6767 118.23L62.3093 114.408L66.9349 109.493L70.7442 108.128L76.4581 105.124L75.3698 102.94L76.4581 98.2979L80.8116 92.5638L84.6209 91.1986L85.4372 86.2837L88.7023 85.7376L91.9674 80.5496L89.2465 77L85.4372 76.4539L83.5326 70.1738L89.2465 66.3511L81.6279 64.9858L84.6209 64.1667L85.4372 62.2553L89.2465 60.344L85.4372 55.9752L93.8721 49.695L102.035 47.7837L105.572 43.6879L106.388 40.1383L111.558 31.4007L106.388 24.8475L109.109 25.9397L112.647 23.7553L112.102 21.844L115.367 21.0248L114.279 18.8404L117 18.0213L116.184 14.1986L111.558 7.91844L109.109 15.5638L105.572 13.3794L108.837 7.91844L105.572 6.28014L106.933 5.18794L102.307 1.36525L100.13 2.45745L95.7767 0L94.4163 0.819149L95.7767 5.18794L92.5116 7.91844L85.4372 2.45745L83.8046 4.09574L84.6209 7.09929L83.8046 9.01064L84.6209 10.6489L82.7163 14.1986L85.4372 17.2021L84.6209 19.9326V23.7553L81.6279 25.9397V30.5816L84.6209 32.2199L86.2535 33.8582L80.2674 35.4965L75.3698 33.3121L73.4651 39.3191L68.2953 41.7766L64.486 46.1454L63.1256 44.7801H58.7721L56.5953 42.3227L53.3302 43.6879L47.0721 46.9645V50.7872L42.7186 53.5177H31.8349L27.4814 47.7837H19.0465L18.5023 49.695H15.2372V53.5177L13.0605 54.6099L14.1488 56.7943Z" fill="#B47A4C"/>
@@ -379,7 +379,7 @@ export default function HomePage() {
                   <div className='text-center mt-[2.21vw] mb-[0.56vw]'>
                     <span className='text-white text-[2.22vw] font-bold OS-front max-md:text-[5.09vw]'>Запорожская обл</span>
                   </div>
-                  <div className='text-center leading-[2vw]'>
+                  <div className='text-center leading-[2vw] max-md:leading-[5vw]'>
                     <span className='text-white text-[1.39vw] font-normal OS-front max-md:text-[3.31vw] '>г. Мелитополь, с. Константиновка, ул. <br></br> Центральная, д. 244/2</span>
                   </div>
                 </div>
@@ -387,34 +387,34 @@ export default function HomePage() {
             </div>
 
             <div className='mt-[13.89vw] mb-[2.22vw] max-md:mb-[4.33vw] max-md:mt-[17.81vw]'>
-              <span className='title text-[6.94vw] ml-[3.19vw]'>Супермаркеты</span>
+              <span className='title text-[6.94vw] ml-[3.19vw] max-md:ml-[5.54vw]'>Супермаркеты</span>
             </div>
-            <div className='max-md:flex max-md:flex-col'>
+            <div className='max-md:flex max-md:flex-col '>
               
             </div>
-            <div className='inline-flex items-center border-[#BBBBC7] border-[0.07vw] py-[0.97vw] px-[1.67vw]  ml-[3.19vw] rounded-[2.61vw] max-md:mb-[2.21vw] max-md:rounded-[5.98vw] max-md:py-[2.34vw] max-md:px-[3.77vw]'>
+            <div className='inline-flex items-center border-[#BBBBC7] border-[0.07vw] py-[0.97vw] px-[1.67vw]  ml-[3.19vw] rounded-[2.61vw] max-md:mb-[2.21vw] max-md:rounded-[5.98vw] max-md:py-[2.34vw] max-md:px-[3.77vw] max-md:ml-[5.54vw]'>
               <img className='mr-[0.49vw] max-md:mr-[0.89vw] max-md:w-[3.82vw] max-md:h-[3.82vw]' src='/img/icons/location.svg'></img>
               <span className='OS-front text-[1.32vw] max-md:text-[3.05vw]'>г.Грозный, Старопромысловское шоссе, 26В</span>
             </div>
             <br className='hidden max-md:block'></br>
-            <div className='inline-flex items-center border-[#BBBBC7] border-[0.07vw] py-[0.97vw] px-[1.67vw]  ml-[1.04vw] max-md:ml-[3.39vw] max-md:mb-[2.21vw] rounded-[2.61vw] max-md:rounded-[5.98vw] max-md:py-[2.34vw] max-md:px-[3.77vw]'>
+            <div className='inline-flex items-center border-[#BBBBC7] border-[0.07vw] py-[0.97vw] px-[1.67vw]  ml-[1.04vw] max-md:ml-[3.39vw] max-md:mb-[2.21vw] rounded-[2.61vw] max-md:rounded-[5.98vw] max-md:py-[2.34vw] max-md:px-[3.77vw] max-md:ml-[5.54vw]'>
               <img className='mr-[0.49vw] max-md:mr-[0.89vw] max-md:w-[3.82vw] max-md:h-[3.82vw]' src='/img/icons/location.svg'></img>
               <span className='OS-front text-[1.32vw] max-md:text-[3.05vw]'>г.Грозный, ул. Боевая, 17</span>
             </div>
             <br className='hidden max-md:block'></br>
-            <div className='inline-flex items-center border-[#BBBBC7] border-[0.07vw] py-[0.97vw] px-[1.67vw]  ml-[1.04vw] max-md:ml-[3.39vw] max-md:mb-[2.21vw] rounded-[2.61vw] max-md:rounded-[5.98vw] max-md:py-[2.34vw] max-md:px-[3.77vw]'>
+            <div className='inline-flex items-center border-[#BBBBC7] border-[0.07vw] py-[0.97vw] px-[1.67vw]  ml-[1.04vw] max-md:ml-[3.39vw] max-md:mb-[2.21vw] rounded-[2.61vw] max-md:rounded-[5.98vw] max-md:py-[2.34vw] max-md:px-[3.77vw] max-md:ml-[5.54vw]'>
               <img className='mr-[0.49vw] max-md:mr-[0.89vw] max-md:w-[3.82vw] max-md:h-[3.82vw]' src='/img/icons/location.svg'></img>
               <span className='OS-front text-[1.32vw] max-md:text-[3.05vw]'>г.Грозный, ул. Сайханова, 99</span>
             </div>
             <br className='hidden max-md:block '></br>
 
-            <div className='inline-flex items-center border-[#BBBBC7] border-[0.07vw] py-[0.97vw] px-[1.67vw]  ml-[3.19vw] rounded-[2.61vw] max-md:rounded-[5.98vw] max-md:py-[2.34vw] max-md:px-[3.77vw] mt-[1.04vw] ml-[1.04vw]'>
+            <div className='inline-flex items-center border-[#BBBBC7] border-[0.07vw] py-[0.97vw] px-[1.67vw]  ml-[3.19vw] rounded-[2.61vw] max-md:rounded-[5.98vw] max-md:py-[2.34vw] max-md:px-[3.77vw] mt-[1.04vw] ml-[1.04vw] max-md:ml-[5.54vw]'>
               <img className='mr-[0.49vw] max-md:mr-[0.89vw] max-md:w-[3.82vw] max-md:h-[3.82vw]' src='/img/icons/location.svg'></img>
               <span className='OS-front text-[1.32vw] max-md:text-[3.05vw]'>г.Грозный, Бульвар Дудаева, 6Б</span>
             </div>
             <br className='hidden max-md:block'></br>
 
-            <div className='inline-flex items-center border-[#BBBBC7] border-[0.07vw] py-[0.97vw] px-[1.67vw]  ml-[1.04vw] rounded-[2.61vw] max-md:rounded-[5.98vw] max-md:py-[2.34vw] max-md:px-[3.77vw] ml-[1.04vw] max-md:ml-[3.19vw] max-md:mt-[3.82vw]'>
+            <div className='inline-flex items-center border-[#BBBBC7] border-[0.07vw] py-[0.97vw] px-[1.67vw]  ml-[1.04vw] rounded-[2.61vw] max-md:rounded-[5.98vw] max-md:py-[2.34vw] max-md:px-[3.77vw] ml-[1.04vw] max-md:ml-[3.19vw] max-md:mt-[3.82vw] max-md:ml-[5.54vw]'>
               <img className='mr-[0.49vw] max-md:mr-[0.89vw] max-md:w-[3.82vw] max-md:h-[3.82vw]' src='/img/icons/location.svg'></img>
               <span className='OS-front text-[1.32vw] max-md:text-[3.05vw]'>с.Бердыкель, ул. Кадырова, 1</span>
             </div>
@@ -424,14 +424,14 @@ export default function HomePage() {
             <div className='flex items-center mt-[2.36vw] max-md:flex-col'>
               <div className='w-[54.03vw] h-[36.94vw]  bg-[#293A54] ml-[3.19vw] mr-[1.39vw]  rounded-[2.08vw]  max-md:ml-[0] max-md:mr-[0]  max-md:w-[100vw] max-md:h-[81.42vw]  max-md:rounded-[3.82vw]'>
                 <div className='pt-[1.74vw]'>
-                <iframe className='w-[50.56vw] max-md:w-[94.91vw] h-[32.85vw] max-md:h-[76.42vw]  rounded-[1.39vw] ml-[2.74vw] ' src="https://yandex.ru/map-widget/v1/?um=constructor%3A04738fbb009a991219a364157be3145250bd01701819ff9e9130bc3e02c1b516&amp;source=constructor" width="500" height="400" frameBorder="0"></iframe>
+                <iframe className='w-[50.56vw] max-md:w-[94.91vw] h-[32.85vw] max-md:h-[76.42vw]  rounded-[1.39vw] ml-[1.74vw] max-md:ml-[2.5vw] max-md:mt-[1.3vw]' src="https://yandex.ru/map-widget/v1/?um=constructor%3A04738fbb009a991219a364157be3145250bd01701819ff9e9130bc3e02c1b516&amp;source=constructor" width="500" height="400" frameBorder="0"></iframe>
                 </div>
               </div>
               <img className='w-[38.19vw] max-md:w-[100vw] h-[36.32vw] max-md:h-[86.77vw] max-md:rounded-[3.82vw] max-md:mt-[2.54vw]' src='/img/image_9.png'></img>
             </div>
             
             <div className='mt-[13.89vw] max-mt-[17.81vw] mb-[3vw] max-md:mb-[3.09vw]'>
-              <span id='contact' className='title text-[6.94vw] max-md:text-[10.43vw] ml-[3.19vw]  max-md:mb-[5.09vw]'>Наши данные</span>
+              <span id='contact' className='title text-[6.94vw] max-md:text-[10.43vw] ml-[3.19vw]  max-md:mb-[5.09vw]  max-md:ml-[5.54vw]'>Наши данные</span>
 
               <div className='flex max-md:flex-col max-md:mt-[5.09vw]  '>
 

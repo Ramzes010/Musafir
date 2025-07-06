@@ -88,10 +88,10 @@ export default function ApplicationForm() {
             className="peer sr-only "
             required
           />
-          <span className="w-6 h-6 border-2 border-gray-400 rounded flex items-center justify-center peer-checked:bg-blue-500 ">
+          <span className="w-6 h-6 border-2 border-gray-400 rounded flex items-center justify-center peer-checked:bg-blue-500 max-md:relative max-md:bottom-[3vw]">
             <svg
               className="w-[1.5vw] h-[1.5vw] opacity-0 peer-checked:opacity-100 transition-opacity pointer-events-none
-              max-md:w-[4vw] max-md:h-[2vw]"
+              max-md:w-[5vw] max-md:h-[2vw] "
               viewBox="0 0 20 20"
               fill="none"
               stroke="currentColor"
