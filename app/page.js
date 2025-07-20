@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import InfiniteRibbon from '../components/InfiniteRibbon';
 import LogoSlider from "../components/LogoSlider";
 import ApplicationForm from "../components/ApplicationForm";
+import MadeInGarage from "../components/MadeInGarage";
 import { Fragment } from 'react';
 
 const scrollToAbout = (e) => {
@@ -52,7 +53,7 @@ export default function HomePage() {
     {
       bgImage: 'bgCardDown.svg',
       value: '300+',
-      text: 'Сотрудников и 6 супермаркетов | «Мусафир». | Растущая сеть и команда | профессионалов.',
+      text: 'Сотрудников и 6 супермаркетов | &ldquo;Мусафир&rdquo;. | Растущая сеть и команда | профессионалов.',
       separator: '|',
       pt: '0.51vw'
     }
@@ -89,7 +90,7 @@ export default function HomePage() {
     {
       bgImage: 'bgCardDownMob.svg',
       value: '300+',
-      text: 'Сотрудников и 6 супермаркетов | «Мусафир». | Растущая сеть и команда | профессионалов.',
+      text: 'Сотрудников и 6 супермаркетов | &ldquo;Мусафир&rdquo;. | Растущая сеть и команда | профессионалов.',
       separator: '|',
       
     }
@@ -517,19 +518,25 @@ export default function HomePage() {
                   </div>
 
                 </div>
+
+                
               </div>
               </div>
             </div>
 
             <ApplicationForm />
 
-            <div id="Form" className='w-full h-[22.15vw] bg-[#060F20] rounded-t-[2.08vw] flex items-end  z-[-1] max-md:hidden '>
+            <div id="Form" className='flex items-center  w-full h-[22.15vw] bg-[#060F20] rounded-t-[2.08vw] flex items-end  z-[-1] max-md:hidden '>
               <div className='flex items-center ml-[3.19vw] mb-[2.22vw]'>
                 <span className='text-[0.9vw] text-[#DEDEE8] OS-front max-md:text-[]'>ГРОПРОДУКТ © 2025</span>
                 <div className='bg-[#DEDEE8] w-[0.1vw] h-[1.11vw] mx-[1.11vw]'></div>
                 <span className='text-[0.9vw] text-[#DEDEE8] mr-[1.11vw] OS-front'>14129@inbox.ru</span>
                 <span className='text-[0.9vw] text-[#DEDEE8] mr-[1.11vw] OS-front'>+7(963)706-00-06</span>
                 <span className='text-[0.9vw] text-[#DEDEE8] OS-front'>+7(938)996-92-82</span>
+              </div>
+
+              <div>
+              <MadeInGarage />
               </div>
             </div>
             
@@ -549,6 +556,7 @@ export default function HomePage() {
                 </div>
                
               </div>
+              
             </div>
     </>
   )
